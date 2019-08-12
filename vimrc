@@ -1,4 +1,4 @@
-set nu
+set nonu
 set ai
 set cindent
 set tabstop=2
