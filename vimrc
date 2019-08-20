@@ -4,8 +4,8 @@ set cindent
 set tabstop=2
 set shiftwidth=2
 set bg=dark
-syntax on
-set t_Co=256
+syntax enable
+set termguicolors 
 color molokai
 set expandtab
 filetype indent on
