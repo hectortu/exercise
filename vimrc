@@ -1,12 +1,13 @@
-set nonu
+set nu
 set ai
 set cindent
-set tabstop=2
-set shiftwidth=2
+filetype indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set bg=dark
 syntax enable
 set termguicolors 
 color molokai
-set expandtab
-filetype indent on
-map <f9> :w<cr>:!g++ -O2 -std=gnu++11 -static -lm -o %< % && ./%< <cr> 
+map <F8> :w<CR>:python % <CR>
+map <f9> :w<cr>:!g++ -O2 -std=gnu++14 -static -lm -o %< % && ./%< <cr> 
